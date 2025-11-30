@@ -1,26 +1,25 @@
 {
-    "name": "khalidafghanmal/laravel-optimizer",
-    "description": "HyperResponse - The ultimate Laravel HTML & JSON optimizer for lightning-fast apps",
+    "name": "khalidafghanmal/response-optimizer",
+    "description": "Advanced Laravel package to auto-optimize HTML/JSON responses",
     "type": "library",
-    "license": "MIT",
     "autoload": {
         "psr-4": {
-            "HyperResponse\\LaravelOptimizer\\": "src/"
+            "Khalid\\ResponseOptimizer\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "HyperResponse\\LaravelOptimizer\\ResponseOptimizerServiceProvider"
+                "Khalid\\ResponseOptimizer\\ResponseOptimizerServiceProvider"
             ],
             "aliases": {
-                "ResponseOptimizer": "HyperResponse\\LaravelOptimizer\\Facades\\ResponseOptimizer"
+                "ResponseOptimizer": "Khalid\\ResponseOptimizer\\Facades\\ResponseOptimizer"
             }
         }
     },
     "require": {
         "php": ">=8.0",
-        "illuminate/support": "^10.0"
+        "illuminate/support": "^9.0|^10.0|^11.0|^12.0"
     },
     "minimum-stability": "dev",
     "prefer-stable": true
