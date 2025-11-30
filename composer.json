@@ -1,6 +1,6 @@
 {
     "name": "khalidafghanmal/response-optimizer",
-    "description": "Advanced Laravel package to auto-optimize HTML/JSON responses globally",
+    "description": "Advanced Laravel package to auto-optimize HTML/JSON responses",
     "type": "library",
     "autoload": {
         "psr-4": {
@@ -21,4 +21,5 @@
         "php": ">=8.0"
     }
 }
+
 
