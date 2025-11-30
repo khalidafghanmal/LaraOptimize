@@ -2,12 +2,22 @@
     "name": "khalid/response-optimizer",
     "description": "Advanced Laravel package to auto-optimize HTML/JSON responses globally",
     "type": "library",
-    "autoload": { "psr-4": { "Khalid\\ResponseOptimizer\\": "src/" } },
+    "autoload": {
+        "psr-4": {
+            "Khalid\\ResponseOptimizer\\": "src/"
+        }
+    },
     "extra": {
-    "laravel": {
-        "providers": ["Khalid\\ResponseOptimizer\\ResponseOptimizerServiceProvider"],
-        "aliases": { "ResponseOptimizer": "Khalid\\ResponseOptimizer\\Facades\\ResponseOptimizer" }
+        "laravel": {
+            "providers": [
+                "Khalid\\ResponseOptimizer\\ResponseOptimizerServiceProvider"
+            ],
+            "aliases": {
+                "ResponseOptimizer": "Khalid\\ResponseOptimizer\\Facades\\ResponseOptimizer"
+            }
+        }
+    },
+    "require": {
+        "php": ">=8.0"
     }
-}
-    "require": { "php": ">=8.0" }
 }
